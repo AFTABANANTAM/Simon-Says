@@ -98,3 +98,45 @@ background: #ffcc00;
     font-size: 1.5em;
     margin-top: 10px;
 }
+
+
+@media (max-width: 600px) {
+    .main {
+        margin-top: 20px;
+    }
+.head {
+        font-size: 3em;
+        margin-bottom: 10px;
+    }
+ .start, .help {
+        font-size: 1em;
+        padding: 8px 15px;}
+.buttons {
+        grid-template-columns: repeat(2, 80px);
+        gap: 10px;
+        margin-top: 15px;}
+.xyz {
+        width: 80px;
+        height: 80px;
+        font-size: 1em;
+        border-radius: 8px;
+    }
+.pop-up {
+        width: 90%;
+        padding: 15px;
+    }
+.close {
+        font-size: 1.2em;
+    }}
+@media (max-width: 900px) {
+    .head {
+        font-size: 4em;
+    }
+.buttons {
+        grid-template-columns: repeat(2, 90px);
+        gap: 12px;
+    }
+.xyz {
+        width: 90px;
+        height: 90px;
+        font-size: 1.1em;}}
